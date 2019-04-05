@@ -1,0 +1,46 @@
+.board {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #999;
+  box-sizing: border-box;
+}
+.Square {
+  width: 88px;
+  height: 88px;
+  background: #f90;
+  padding: 5px;
+  float: left;
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+.btn-start {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 7px 16px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+.container {
+  margin: 20%;
+  margin-top: 5%;
+}
+
+#message {
+	border:1px solid #4caf50;
+	text-align: center;
+	display: inline-block;
+	padding: 7px 16px;
+	margin-bottom: 20px;
+}
+
+.score {
+  border: 1px solid #27979b;
+  text-align: center;
+  display: inline-block;
+  padding: 0 32px;
+  margin-top: 20px;
+}
